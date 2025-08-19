@@ -1,0 +1,3 @@
+Obtained dataset from:  https://doi.org/10.25919/4v55-dn16
+Created a folder as class_0 for class_0(No Spill) images
+Created a folder as class_1 for class_1(Spill) images
