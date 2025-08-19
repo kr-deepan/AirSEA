@@ -1,0 +1,52 @@
+# Core
+torch
+torchvision
+torchaudio
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+
+# Image Processing
+opencv-python
+scikit-image
+Pillow
+
+# Geospatial (needed later for Sentinel/CSIRO data & masks)
+rasterio
+shapely
+geopandas
+GDAL
+
+# Deep Learning for Segmentation
+segmentation-models-pytorch
+albumentations
+
+# Noise Reduction / Denoising
+torchvision
+timm             # pretrained vision models (e.g., EfficientNet, TransUNet backbones)
+
+# Visualization & Notebooks
+jupyter
+notebook
+seaborn
+plotly
+
+# Annotation & Dataset tools (optional)
+labelme
+cvat-sdk
+
+# Deployment / Web UI (later phases)
+fastapi
+uvicorn
+streamlit
+dash
+
+# Utilities
+tqdm
+
+
+
+
+#With future proof
