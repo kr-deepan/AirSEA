@@ -46,8 +46,8 @@ oil_spill_detection/
 ## ⚙️ Installation
 1. Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/oil_spill_detection.git
-   cd oil_spill_detection
+   https://github.com/kr-deepan/AirSEA.git
+   cd AirSEA
    ```
 
 2. Create a virtual environment:
@@ -72,7 +72,7 @@ notebooks/phase1_classification.ipynb
 ```
 
 During training:
-- Model is saved to `models/resnet18_baseline.pth`
+- Model is saved to `models/esnet18_baseline.pth`
 - Metrics and classification report are stored in `outputs/`
 
 ---
@@ -80,15 +80,15 @@ During training:
 ## 📊 Example Results
 | Metric      | Score |
 |-------------|-------|
-| Accuracy    | 98%   |
+| Accuracy    | 97%   |
 | Precision   | 0.97  |
-| Recall      | 0.97  |
-| F1-Score    | 0.97  |
+| Recall      | 0.96  |
+| F1-Score    | 0.96  |
 
 Confusion Matrix:
 ```
-[[739  11]
- [ 11 365]]
+[[730  12]
+ [ 17 367]]
 ```
 
 ---
